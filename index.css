@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+}
+
+#navbar {
+    position: fixed;
+    top: 0vh;
+    left: 0vw;
+    padding-top: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    width: 8rem;
+    height: 100%;
+    background-color: aqua;
+    z-index: 100;
+}
+
+#main-doc {
+    position: relative;
+    margin-left: 10rem;
+}
+
+header {
+    font-size: 24px;
+}
+
+code {
+    margin-left: 1em;
+}
+
+.main-section {
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 50rem) {
+#navbar {
+    width: 100%;
+    height: 4rem;
+}
+#main-doc {
+    position: relative;
+    margin-top: 4rem;
+    margin-left: 0rem;
+}
+}

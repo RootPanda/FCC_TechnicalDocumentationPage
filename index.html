@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>PANDA API Documentation</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <header>PANDA API Tech Docs</header>
+        <a href="#Introduction" class="nav-link">Introduction</a>
+        <a href="#Usage" class="nav-link">Usage</a>
+        <a href="#C++_Reference" class="nav-link">C++ Reference</a>
+        <a href="#Golang_Reference" class="nav-link">Golang Reference</a>
+        <a href="#Troubleshooting" class="nav-link">Troubleshooting</a>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section">
+            <header id="Introduction">Introduction</header>
+            <p>The PANDA API provides the user with root access to the system.</p>
+            <p>Take care when using the PANDA API.</p>
+        </section>
+        <section class="main-section">
+            <header id="Usage">Usage</header>
+            <p>Refer to the C++ or Golang references for PANDA API usage information.</p>
+        </section>
+        <section class="main-section">
+            <header id="C++_Reference">C++ Reference</header>
+            <p>This is the C++ reference.</p>
+            <p>Include <code>Panda.hpp</code>.</p>
+            <code>#include "Panda.hpp"</code>
+            <p>You can then instantiate the class:</p>
+            <code>Panda* myPanda = new Panda{};</code>
+            <p>Initalize it:</p>
+            <code>myPanda->initialize();</code>
+            <p>Don't forget to delete it:</p>
+            <code>delete myPanda;</code>
+        </section>
+        <section class="main-section">
+            <header id="Golang_Reference">Golang Reference</header>
+            <p>This is the Go reference.</p>
+            <p>Work-in-progress. Outstanding work: </p>
+            <ul>
+                <li>API ref</li>
+                <li>Explanation</li>
+                <li>Examples</li>
+                <li>Troubleshooting</li>
+                <li>Implementation details</li>
+            </ul>
+        </section>
+        <section class="main-section">
+            <header id="Troubleshooting">Troubleshooting</header>
+            <p>Ensure that you have downloaded the API.</p>
+            <p>You can use curl for this.</p>
+        </section>
+    </main>
+</body>
+
+</html>
